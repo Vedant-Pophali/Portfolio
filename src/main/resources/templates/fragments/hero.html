@@ -1,0 +1,99 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+
+        <div class="container hero-container">
+
+            <!-- Left: Textual Content -->
+            <div class="hero-content">
+                <div class="hero-greeting">Hello, I am</div>
+
+                <h1 class="hero-title">
+                    <span class="gradient-text">Vedant Pophali</span>
+                </h1>
+
+                <h2 class="hero-subtitle">
+                    Developer, Squash Enthusiast,<br>
+                    Passionate about National Security and Geopolitics
+                </h2>
+
+                <p class="hero-description">
+                    I'm a software developer focused on building resilient, scalable systems and enhancing user experiences.
+                    A squash enthusiast off the clock, I bring the same discipline and energy to both court and code.
+                    I'm also deeply engaged with national security and geopolitics, driven by civic curiosity and strategic thinking.
+                    Together, these passions shape my approach to problem-solving and growth.
+                </p>
+
+                <!-- Call-to-Action Buttons -->
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View Projects <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get in Touch
+                    </a>
+                </div>
+
+                <!-- Social Media Icons -->
+                <div class="social-links">
+                    <a href="mailto:officialvedantpophali2005@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vedant-pophali/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Vedant-Pophali" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right: Profile Image and Floating Stats -->
+            <div class="hero-visual">
+                <div class="image-wrapper">
+
+                    <!-- Profile Image -->
+                    <div class="image-box">
+                        <img src="/images/Profile.png" alt="Profile Picture" />
+                    </div>
+
+                    <!-- Floating Stat: Developer -->
+                    <div class="hero-stats dev">
+                        <div class="hero-stats-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="hero-stats-label">Developer</div>
+                    </div>
+
+                    <!-- Floating Stat: Squash -->
+                    <div class="hero-stats squash">
+                        <div class="hero-stats-icon">
+                            <i class="fas fa-table-tennis"></i>
+                        </div>
+                        <div class="hero-stats-label">Squash Enthusiast</div>
+                    </div>
+
+                    <!-- Floating Stat: Security -->
+                    <div class="hero-stats security">
+                        <div class="hero-stats-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="hero-stats-label">National Security Buff</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-indicator-box">
+                <span class="scroll-text">Scroll Down</span>
+                <div class="scroll-line">
+                    <div class="scroll-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>

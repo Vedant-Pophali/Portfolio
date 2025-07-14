@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="project-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-tile">My Work</h2>
+                <p class="section-subtitle">
+                    Explore some of my latest work.
+                </p>
+            </div>
+
+            <div class="projects-container">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project-1.png" alt="Food Ordering Service" />
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">JWT</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">AWS</span>
+                            <span class="project-tag">Postman</span>
+                            <span class="project-tag">React</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Food Ordering Service</h3>
+                        <p class="project-description">
+                            A fault-tolerant microservice built with Spring Boot and React, featuring retry logic, fallback mechanisms, circuit breaker, JWT-based authentication, and status tracking.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Vedant-Pophali/FoodApps" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project-2.png" alt="AI Chatbot" />
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring AI</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">OpenAI API</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Customer Chatbot</h3>
+                        <p class="project-description">A conversational assistant that handles FAQs and bookings using Spring AI and React.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/ai-chatbot" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project-3.png" alt="Task Manager App" />
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">REST APIs</span>
+                            <span class="project-tag">JWT</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Manager App</h3>
+                        <p class="project-description">A full-stack application to manage tasks, deadlines, and progress with secure authentication.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/task-manager" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project-4.png" alt="DevOps Pipeline" />
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Jenkins</span>
+                            <span class="project-tag">Docker</span>
+                            <span class="project-tag">GitHub Actions</span>
+                            <span class="project-tag">Agile</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CI/CD DevOps Pipeline</h3>
+                        <p class="project-description">End-to-end automation with containerized builds, GitHub Actions, and deployment pipelines using Jenkins.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/devops-pipeline" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
