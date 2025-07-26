@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+*.png
+src/main/resources/static/Vedant_Pophali_Resume.pdf
