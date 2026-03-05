@@ -33,3 +33,7 @@ build/
 .vscode/
 *.png
 src/main/resources/static/Vedant_Pophali_Resume.pdf
+
+### Frontend ###
+frontend/node_modules/
+frontend/dist/
