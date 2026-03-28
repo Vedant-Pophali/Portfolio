@@ -1,16 +1,47 @@
-# My Portfolio Wesbite - Overview 🚀
+# Vedant's Portfolio 🚀
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+Welcome to the open-source repository for my personal portfolio website! This project is designed to showcase my skills, projects, and professional background using modern web technologies and stunning 3D animations.
 
-## Instructions 🛠️
+## 🛠️ Tech Stack
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+This portfolio leverages the power of modern frameworks and libraries to deliver a seamless and engaging user experience:
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+- **Frontend Framework:** React (with TypeScript)
+- **Build Tool:** Vite
+- **3D Graphics & WebGL:** Three.js, @react-three/fiber, @react-three/drei
+- **Animations:** GSAP (GreenSock Animation Platform)
+- **Styling:** HTML, CSS, JavaScript/TypeScript
 
-![Portfolio-Preview](public/images/preview.png)
+## 🚀 Getting Started
 
-## License
+To run this project locally, follow these steps:
 
-This project is open source and available under the [MIT License](LICENSE).
+1. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production:**
+
+   ```bash
+   npm run build
+   ```
+
+## ⚠️ Important Note on GSAP Plugins
+
+This repository currently uses **GSAP Trial Plugins** for some of the advanced animations.
+
+- The trial plugins work perfectly for local development.
+- **However, you cannot host the site with these trial plugins.** 🔴
+- If you intend to deploy your own version of this portfolio, you will need to acquire the official [GSAP Club Plugins](https://gsap.com/docs/v3/Installation/) or replace those specific animations.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE). Feel free to explore and use it as an inspiration!
